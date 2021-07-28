@@ -1,0 +1,483 @@
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    font-family: Anton;
+                    margin: 0;
+                    padding: 0;
+                    color: 000;
+                    font-size: 16px;
+                }
+                
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    color: #fff;
+                    font-family: 'Playfair Display', serif;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                ul,
+                li {
+                    display: block;
+                    padding: 0;
+                    margin: 0;
+                }
+                
+                .container {
+                    max-width: 960px;
+                    margin: 0 auto;
+                }
+                
+                nav {
+                    font-family: 'Roboto', sans-serif;
+                    display: flex;
+                    align-items: center;
+                    padding-top: 35px;
+                    justify-content: space-between;
+                }
+                
+                .menu {
+                    display: flex;
+                }
+                
+                .menu li a {
+                    color: white;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-size: 14px;
+                    letter-spacing: 0.1em;
+                }
+                
+                .menu li {
+                    margin-right: 20px;
+                }
+                
+                .header {
+                    background: url("../img/bc.png") no-repeat center top / cover;
+                    padding-bottom: 70px;
+                }
+                
+                .video {
+                    background: url("../img/bg-video.png") no-repeat center top / cover;
+                }
+                
+                .team {
+                    background: url("../img/bg-team.png") no-repeat center top / cover;
+                    padding-top: 28px;
+                }
+                
+                .offer {
+                    margin-top: 183px;
+                    text-align: center;
+                }
+                
+                .hr-line {
+                    align-content: center;
+                    width: 50px;
+                    border: none;
+                    border-top: 1px solid #00e0d0;
+                    margin-top: 25px;
+                    margin-bottom: 30px;
+                }
+                
+                .offer h1 {
+                    font-family: 'Playfair Display', sans-serif;
+                    font-weight: 600;
+                    font-size: 32px;
+                    letter-spacing: 0.2em;
+                }
+                
+                .offer p {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    letter-spacing: 0.18em;
+                    color: white;
+                    font-size: 14px;
+                    line-height: 25px;
+                    margin-bottom: 50px;
+                }
+                
+                .offer .btn {
+                    font-family: 'Hammersmith One', sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    border: 1px solid #00e0d0;
+                    border-radius: 3px;
+                    width: 120px;
+                    transition: all 0.5s ease;
+                    padding: 15px 15px;
+                    color: #00e0d0;
+                    transition: all 0.5s ease;
+                }
+                
+                .btn:hover {
+                    background: #00e0d0;
+                    color: #000;
+                }
+                
+                .description {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 70px;
+                    margin-left: 75px;
+                    margin-bottom: 70px;
+                }
+                
+                .description h2 {
+                    color: #000;
+                }
+                
+                .description p {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 22px;
+                    letter-spacing: 0.02em;
+                    color: #c6c5c9;
+                    margin-bottom: 35px;
+                    margin-top: 28px;
+                }
+                
+                .desc-right {
+                    width: 595px;
+                }
+                
+                .desc-right .btn2 {
+                    font-family: 'Hammersmith One', sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    border: 1px solid #00e0d0;
+                    border-radius: 3px;
+                    width: 120px;
+                    transition: all 0.5s ease;
+                    padding: 15px 15px;
+                    color: #00e0d0;
+                    transition: all 0.5s ease;
+                }
+                
+                .desc-right .btn:hover {
+                    background: #00e0d0;
+                    color: #000;
+                }
+                
+                .video-btn {
+                    padding-top: 205px;
+                    padding-bottom: 205px;
+                    text-align: center;
+                }
+                
+                .video p {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    letter-spacing: 0.1em;
+                    margin-top: 34px;
+                    text-transform: uppercase;
+                    color: white;
+                }
+                
+                .expertise {}
+                
+                .expertise h2 {
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    font-size: 22px;
+                    margin-top: 70px;
+                    letter-spacing: 0.05em;
+                    text-align: center;
+                    color: #413d4b;
+                }
+                
+                .expertise h3 {
+                    font-size: 14px;
+                    letter-spacing: 0.1em;
+                    margin-top: 15px;
+                    text-align: center;
+                    color: #8d8c90;
+                }
+                
+                .hr-line2 {
+                    align-content: center;
+                    width: 50px;
+                    border: none;
+                    border-top: 2px solid #c6c4c9;
+                    margin-top: 25px;
+                    margin-bottom: 30px;
+                }
+                
+                .expertise-сards {
+                    font-family: 'Roboto', sans-serif;
+                    margin-top: 85px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .expertise-card {
+                    text-align: center;
+                }
+                
+                .expertise-сards1 {
+                    font-family: 'Roboto', sans-serif;
+                    margin-top: 85px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 95px;
+                }
+                
+                .expertise1 {
+                    color: #413d4b;
+                    font-weight: 600;
+                    margin-bottom: 25px;
+                }
+                
+                .expertise2 {
+                    color: #8f8f8f;
+                    font-size: 14px;
+                    line-height: 22px;
+                    letter-spacing: 0.07em;
+                }
+                
+                .hr-line3 {
+                    align-content: center;
+                    width: 100%;
+                    border: none;
+                    border-top: 1px solid #ebebeb;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+                
+                .expetise-info {
+                    margin-top: 25px;
+                }
+                
+                .team {
+                    text-align: center;
+                }
+                
+                .team h1 {
+                    font-size: 22px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+                
+                .team p {
+                    text-align: center;
+                }
+                
+                .team h1 {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 22px;
+                    letter-spacing: 0.1em;
+                }
+                
+                .p-team {
+                    margin-top: 15px;
+                    font-family: 'Playfair Display', serif;
+                    font-size: 14px;
+                    color: #e0dee4;
+                    letter-spacing: 0.07em;
+                }
+                
+                .team-cards {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .team-info {
+                    padding-bottom: 12px;
+                    margin-top: -4px;
+                    border: 1px solid #747388;
+                }
+                
+                .p-class {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: white;
+                    letter-spacing: 0.05em;
+                    margin-top: 70px;
+                    margin-bottom: 27px;
+                }
+                
+                .team .btn3 {
+                    display: inline-block;
+                    font-family: 'Hammersmith One', sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    border: 1px solid #00e0d0;
+                    border-radius: 3px;
+                    width: 140px;
+                    transition: all 0.5s ease;
+                    padding: 15px 10px;
+                    color: #00e0d0;
+                    transition: all 0.5s ease;
+                    margin-bottom: 70px;
+                }
+                
+                .name {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: white;
+                }
+                
+                .position {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 13px;
+                    font-weight: 300;
+                    color: white;
+                }
+                
+                .footer {
+                    text-align: center;
+                }
+                
+                .our-work {
+                    margin-top: 70px;
+                    margin-bottom: 70px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .our-work h2 {
+                    font-family: 'Playfair Display', serif;
+                    color: black;
+                    font-size: 22px;
+                    font-weight: 600;
+                    letter-spacing: 0.1em;
+                }
+                
+                .our-work p {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                }
+                
+                .gallery {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .our-works {
+                    text-align: center;
+                }
+                
+                .our-works .btn4 {
+                    margin-top: 70px;
+                    display: inline-block;
+                    font-family: 'Hammersmith One', sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    border: 1px solid #00e0d0;
+                    border-radius: 3px;
+                    width: 140px;
+                    transition: all 0.5s ease;
+                    padding: 15px 10px;
+                    color: #00e0d0;
+                    transition: all 0.5s ease;
+                    margin-bottom: 70px;
+                }
+                
+                .testimonials {
+                    background: url("../img/bg-team.png") no-repeat center top / cover;
+                    text-align: center;
+                }
+                
+                .testimonials img {
+                    margin-top: 70px;
+                    margin-bottom: 40px;
+                }
+                
+                .testimonials .p-text {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 16px;
+                    color: white;
+                    letter-spacing: 0.05em;
+                    line-height: 25px;
+                }
+                
+                .testimonials .p-name {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: white;
+                    margin-top: 50px;
+                }
+                
+                .testimonials .p-position {
+                    margin-top: 13px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 13px;
+                    font-weight: 200;
+                    text-transform: uppercase;
+                    color: white;
+                    padding-bottom: 35px;
+                }
+                /* Кружочки */
+                
+                .slider-dots {
+                    text-align: center;
+                    margin-top: 127px;
+                    margin-bottom: 70px;
+                }
+                
+                .slider-dots_item {
+                    cursor: pointer;
+                    height: 12px;
+                    width: 12px;
+                    margin: 0 2px;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                
+                .active,
+                .slider-dots_item:hover {
+                    background-color: #00e0d0;
+                }
+                /* Анимация слайдов */
+                
+                .slider .item {
+                    -webkit-animation-name: fade;
+                    -webkit-animation-duration: 1.5s;
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                
+                @-webkit-keyframes fade {
+                    from {
+                        opacity: .4
+                    }
+                    to {
+                        opacity: 1
+                    }
+                }
+                
+                @keyframes fade {
+                    from {
+                        opacity: .4
+                    }
+                    to {
+                        opacity: 1
+                    }
+                }
